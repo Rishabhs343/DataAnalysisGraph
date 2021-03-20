@@ -1,0 +1,607 @@
+/* import fonts from fonts.css */
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* global file */
+@import url(./partials/_global.css);
+
+/* Start navigation */
+body {
+  font-family: var(--roboto); 
+}
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 2rem;
+}
+
+.header_area .main-menu .navbar {
+  padding: 1rem;
+  padding-right: 4rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font: normal 500 17px/4px var(--roboto);
+  text-transform: uppercase;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav a.active {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--hover-gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* End navigation */
+
+/* Banner Area */
+
+.site-main .site-banner .site-title {
+  padding-top: 10%;
+  font-weight: 500;
+}
+
+.site-main .site-banner .site-title h1 {
+  font-size: 3.4rem;
+}
+
+.site-main .site-banner .site-title h3 {
+  font-size: 2.4rem;
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img {
+  padding: 3rem 0;
+  width: 90rem;
+  padding-left: 3rem;
+}
+
+.title-text {
+  font-family: var(--roboto);
+}
+
+.touchbtn {
+  padding-top: 10%;
+  font-weight: 500;
+}
+
+.touchbtn {
+  color: blue;
+  background-color: transparent;
+  border: 1px solid blue;
+  border-radius: 4px;
+  padding: 1.25rem 1.75rem;
+  font-size: 14px;
+  font-family: var(--roboto);
+  line-height: 1;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin-top: 50px;
+}
+
+/* image */
+.img-fluid {
+  opacity: 90%;
+}
+/* end image */
+
+/* End Banner Area */
+
+/* Footer Area*/
+.footer-area {
+  position: static;
+  /* height: 50px;   */
+  background-color: #ffffff;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+#lab_social_icon_footer {
+  padding: 10px 0;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+#lab_social_icon_footer a {
+  color: #333;
+}
+
+#lab_social_icon_footer .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#lab_social_icon_footer .social {
+  -webkit-transform: scale(0.8);
+  padding-left: 3rem;
+  /* Browser Variations: */
+
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+#lab_social_icon_footer #social-github:hover {
+  color: red;
+}
+
+#lab_social_icon_footer #social-gitlab:hover {
+  color: #fc6d26;
+}
+
+#lab_social_icon_footer #social-linkedin:hover {
+  color: #0e76a8;
+}
+
+#lab_social_icon_footer #social-gmail:hover {
+  color: #08851b;
+}
+
+#lab_social_icon_footer #social-office:hover {
+  color: #3e65cf;
+}
+
+.designby {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: auto;
+}
+/* End Footer Area */
+
+/* About html */
+
+.title-box-2 {
+  margin-bottom: 3rem;
+}
+
+.title-left {
+  font-size: 2rem;
+  position: relative;
+}
+
+
+.widget-tags ul li {
+  display: inline-block;
+  background-color: #0078ff;
+  padding: 0.2rem 0.6rem;
+  margin-bottom: 0.5rem;
+  border-radius: 15px;
+}
+
+.widget-tags ul li a {
+  color: #fff;
+}
+
+.ul-resect,
+.socials ul,
+.list-ico,
+.blog-wrapper .post-meta ul,
+.box-comments .list-comments,
+.widget-sidebar .list-sidebar,
+.widget-tags ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.skill-mf .progress {
+  background-color: #cde1f8;
+  margin: 0.5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: 0.7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: 0.7rem;
+  background-color: #0078ff;
+}
+
+.img-fluid {
+  border-radius: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.about-info {
+  margin-top: 36px;
+}
+
+#about{
+  padding-top: 1.5rem;
+}
+
+/* End About html */
+
+/* Contact  */
+
+.contactus {
+  box-sizing: border-box;
+  font-family: bold var(--roboto);
+}
+
+/* Style inputs */
+.contactus input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #c2bfbf;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contactus input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #c2bfbf;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contactus input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contactus input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.contactus .container {
+  width: 50%;
+  border-radius: 5px;
+}
+
+/* Create two columns that float next to eachother */
+.site-main .contactus {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.contactus .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+.contactus @media screen and (max-width: 600px) {
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+    display: block;
+  }
+}
+
+.col21 label {
+  display: block;
+  text-align: center;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+}
+
+.inpt {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* End Contact */
+
+/* resolution */
+
+@media screen and (max-width: 1200px){
+  html{
+      font-size: 80%;
+  }
+ 
+  .banner-image {         
+      width: 50%;        
+  }   
+  .about-title{
+      height: 70vh;        
+      padding-top: 10rem;
+      display: flex;
+      flex-wrap: wrap
+      justify-content: space-evenly;      
+  } 
+}
+
+@media screen and (max-width: 1080px) {
+  html{
+    font-size: 80%;
+}
+
+.banner-image {         
+    width: 50%;        
+}   
+.about-title{
+    height: 70vh;        
+    padding-top: 10rem;
+    display: flex;
+    flex-wrap: wrap
+    justify-content: space-evenly;      
+} 
+.nav-items {
+    padding-left: 28rem !important;
+  }
+.header_area{
+  width: auto;
+}
+.navbar-brand img{
+  height: "10";
+}
+}
+
+@media screen and (max-width: 1050px) {
+  html {
+    font-size: 90%;
+  }
+  .banner-image {
+    width: 50%;
+
+  }
+  .about-title {
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .nav-items {
+    padding-left: 28rem !important;
+  }
+  .navbar-brand img{
+    height: "40";
+  }
+}
+
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 90%;
+  }
+  .banner-image {
+    width: 70%;
+    padding-left: 10rem;
+    padding-bottom: 5rem;
+  }
+  .about-title {
+    height: 70vh;
+    /* padding-top: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .nav-items {
+    padding-left: 18rem !important;
+  }
+  .navbar-brand img{
+    height: "50";
+  }
+}
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 90%;
+  }
+  .banner-image {
+    width: 80%;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+
+  }
+  .about-title {
+    height: 70vh;
+    /* padding-top: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .nav-items {
+    padding-left: 18rem !important;
+  }
+  .navbar-brand img{
+    height: "50";
+  }
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 80%;
+  }
+  .banner-image {
+    width: 80%;
+    padding-left: 4rem;
+
+  }
+  .about-title {
+    height: 70vh;
+    /* padding-top: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .nav-items {
+    padding-left: 18rem !important;
+  }
+  .navbar-brand img{
+    height: "10";
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 70%;
+  }
+  .banner-image {
+    width: 80%;
+    padding-left: 6rem;
+    padding-bottom: 2rem;
+  }
+  .about-title {
+    height: 70vh;
+    /* padding-top: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .nav-items {
+    padding-left: 18rem !important;
+  }
+  .navbar-brand img{
+    height: "10";
+  }
+}
+@media screen and (max-width: 320px) {
+  .header {
+    font-size: 6rem;
+  }
+  .navbar-brand img{
+    height: "10";
+  }
+}
+
+/* end resolution */
+html {
+  --header1: 3.5rem;
+  --header2: 3rem;
+  --header3: 2.4rem;
+  --header4: 2rem;
+  --text: 1.5rem;
+  --big: 6rem;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display:table;
+  table-layout:fixed;
+  width:100%;
+  height:100%;
+}
+.header-row,
+.footer-row {
+  display:table-row;
+  height:1px;
+}
+.content-row {
+  display:table-row;
+  height:100%;
+}
+.header,
+.footer,
+.content {
+  display:table-cell;
+}
+
+/* Banner Area */
+
+#myCarousel a.carousel-control-next {
+  position: absolute;
+  top: 40% !important;
+  left: inherit !important;
+  right: 17px !important;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+
+#myCarousel a.carousel-control-prev {
+  position: absolute;
+  top: 40% !important;
+  left: 17px !important;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+
+/** slider arrow **/
+
+#myCarousel .carousel-control-prev,
+#myCarousel .carousel-control-next {
+     width: 62px;
+     height: 60px;
+     opacity: 1;
+     font-size: 30px;
+     color: #000;
+}
+
+#myCarousel .carousel-control-prev:hover,
+#myCarousel .carousel-control-next:hover,
+#myCarousel .carousel-control-prev:focus,
+#myCarousel .carousel-control-next:focus {
+}
+
+#myCarousel a.carousel-control-prev {
+     position: absolute;
+     left: 82px;
+     bottom: 10px;
+     top: inherit;
+}
+
+#myCarousel a.carousel-control-next {
+     position: absolute;
+     left: 10px;
+     top: inherit;
+     bottom: 10px;
+} 
+
+.banner-main {
+  position: relative;
+  font-family: poppins;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* End Banner Area */
+
